@@ -36,7 +36,7 @@ Performance
 - Implementado.
 
 Utilizar alguma automatização (Grunt, Gulp, ...)
--Foi implementado a automatização Grunt do projeto.
+-Foi implementado a automatização Grunt no projeto.
 
 O que será avaliado
 Estrutura e organização do código e dos arquivos
