@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Webjump!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <!--Cabeçalho-->
+            <nav id="cabecalho" class="navbar navbar-light btn-sm ">
+                <a class="cabecalhoBotao navbar-brand text-light mt-n2" href="#"><u>Acesse sua conta </u></a>
+                <p class=" text-light"></p>
+                <a class="cabecalhoBotao navbar-brand text-light mt-n2" href="#"><u>Cadastre-se</u></a>
+            </nav>
+
+            <!--Logo-->
+            <nav id="logo" class="navbar navbar-light  ">
+                <a class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+
+                <!--Botao Buscar-->
+                <form class="form-inline">
+
+                    <!--Campo-->
+                    <input id="campoBusca" class="form-control mr-sm-0 rounded-0 col-md-14 w" type="search" placeholder="" aria-label="Search">
+
+                    <!--Botão-->
+                    <button id="botaoBuscar" class="btn my-2 my-sm-0 rounded-0" type="submit">Buscar</button>
+                </form>
+            </nav>
+        </div>
+
+        <!-- Menu -->
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand" href="#"></a>
+
+            <img class="foto-logo" src="img/logo.png" width="160" height="50" class="d-inline-block align-top" alt="">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="menu-font">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark font-weight-bold px-md-5" href="index.html">PÁGINA INICIAL<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold px-md-5" href="camisetas.html">CAMISETAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold px-md-5" href="calças.html">CALÇAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold px-md-5" href="sapatos.html">SAPATOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold px-md-5" href="contato.html">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Menu -->
+    </header>
+    <main class="container">
+        <!--focopagina-->
+        <nav aria-label="focopagina">
+            <ol class="focopagina mt-3">
+                <li class="focopagina-item active"><a href="index.html">PÁGINA INICIAL</a></li>
+                <li class="focopagina-item active"><a href="index.html">SOCIAL</a></li>
+            </ol>
+        </nav>
+
+        <div class="row">
+
+            <!--Menu Lateral-->
+            <div class="col-lg-3 mb-3">
+                <div class="list-group">
+                    <h4 id="tituloFiltro" class="list-group-item border-bottom-0 ">FILTRE POR</h4>
+                    <p id="categorias" class="list-group-item border-top-0 border-bottom-0">CATEGORIAS</p>
+                    <ul class="lista list-group-item border-top-0 border-bottom-0">
+                        <li class="ml-3 my-1"><a href="roupas.html"> Roupas</a></li>
+                        <li class="ml-3 my-1"><a href="sapatos.html">Sapatos</a></li>
+                        <li class="ml-3 my-1"><a href="acessorios.html">Acessórios</a></li>
+                    </ul>
+                    <p id="cores" class="list-group-item border-top-0 border-bottom-0">CORES</p>
+                    <ul class="lista list-group-item border-top-0 border-bottom-0">
+                        <a href="vermelho.html"> <button id="vermelho" type="button" class="btn"></button></a>
+                        <a href="laranja.html"><button id="laranja" type="button" class="btn"></button></a>
+                        <a href="verde.html"><button id="verde" type="button" class="btn"></button></a>
+                    </ul>
+                    <p id="tipos" class="list-group-item border-top-0 border-bottom-0">TIPOS</p>
+                    <ul class="lista list-group-item border-top-0">
+                        <li class="ml-3 my-1"><a href="corrida.html"> Corrida</a></li>
+                        <li class="ml-3 my-1"><a href="caminhada.html">Caminhada</a></li>
+                        <li class="ml-3 my-1"><a href="casual.html">Casual</a></li>
+                        <li class="ml-3 my-1"><a href="social.html">Social</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Produtos -->
+            <div class="col mb-3 mt-5">
+                <div id="products">
+
+                    <!--item 1-->
+                    <div class="product-card">
+                        <figure class="thumbnail">
+                            <img class="card-img-top card h-100 rounded mx-auto d-block" src="img/pants-1.jpg " alt="Foto casa castelo" style="width: 190px; height: 200px;">
+                            <figcaption class="caption">
+                            </figcaption>
+                        </figure>
+
+                        <!-- Nome do Produto -->
+                        <h4 class="card-title text-center font-weight-light ">
+                            <a href="#" class="nomeProduto text-muted">CALÇA MARROM</a>
+                        </h4>
+
+                        <!-- Preço -->
+                        <h5 class="preco text-center mb-4">R$29,99</h5>
+
+                        <!-- Botão Comprar -->
+                        <div class="">
+                            <button class="botao btn rounded mx-auto d-block">
+                                COMPRAR <span class="badge badge-primary "></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!--item 1-->
+                    <!--item 2-->
+                    <div class="product-card">
+                        <figure class="thumbnail">
+                            <img class="card-img-top card h-100 rounded mx-auto d-block" src="img/pants-5.jpg" alt="Foto casa castelo" style="width: 190px; height: 200px;">
+                            <figcaption class="caption">
+                            </figcaption>
+                        </figure>
+
+                        <!-- Nome do Produto -->
+                        <h4 class="card-title text-center font-weight-light ">
+                            <a href="#" class="nomeProduto text-muted">CALÇA PRETA</a>
+                        </h4>
+
+                        <!-- Preço -->
+                        <h5 class="preco text-center mb-4">R$29,99</h5>
+
+                        <!-- Botão Comprar -->
+                        <div class="">
+                            <button class="botao btn rounded mx-auto d-block">
+                                COMPRAR <span class="badge badge-primary "></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!--item 2-->
+
+                </div>
+                <!--Paginação-->
+                <nav id="pagina" aria-label="Navegação de página">
+                    <ul class="pagination justify-content-center mt-5">
+                        <li class="page-item ">
+                            <a class="botaoPag page-link border-0" href="#" aria-label="Anterior">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only ">Anterior</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link border-0" href="index.html">1</a></li>
+                        <li class="page-item"><a class="page-link border-0" href="pagina2.html">2</a></li>
+                        <li class="page-item"><a class="page-link border-0" href="pagina3.html">3</a></li>
+                        <li class="page-item">
+                            <a class="botaoPag page-link border-0" href="#" aria-label="Próximo">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Paginação-->
+            </div>
+        </div>
+
+    </main>
+    <!--Footer-->
+    <footer>
+
+        <!-- Copyright -->
+        <div id="copyright" class="footer-copyright text-center py-3 mt-5">© 2019 Copyright:
+            <a href="">WEBJUMP!</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+$vermelho-padrao: #c3121a;
+$verde-padrao: #80bdb8;
+$cinza-padao: #808080;
+$laranja-padrao: #f36324;
+$preto-padrao: #000000;
+
+* {
+  font-family: Open Sans;
+}
+
+//Cabeçalho//
+#cabecalho {
+  height: 30px;
+  width: auto;;
+  background-color: $preto-padrao;
+}
+
+.cabecalhoBotao {
+  font-size: 13px;
+}
+
+//Search//
+#botaoBuscar {
+  background-color: $vermelho-padrao;
+  color: white;
+  font-weight: bolder;
+}
+
+#campoBusca {
+  border: solid $preto-padrao 1px;
+  width: 250px;
+}
+
+//Menu//
+#menu {
+  background-color: $vermelho-padrao;
+  height: 40px;
+  font-size: 13px;
+}
+
+//Breadcrumb//
+.breadcrumb {
+  color: $preto-padrao;
+  font-size: 12px;
+  font-weight: bolder;
+  background-color: #ffffff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+//Menu Lateral//
+
+#tituloFiltro {
+  color: $vermelho-padrao;
+  font-weight: bolder;
+}
+
+#categorias,
+#tipos,
+#cores {
+  color: $verde-padrao;
+  font-weight: bolder;
+}
+
+#vermelho {
+  background-color: $vermelho-padrao;
+  width: 50px;
+  height: 25px;
+}
+
+#laranja {
+  background-color: $laranja-padrao;
+  width: 50px;
+  height: 25px;
+}
+
+#verde {
+  background-color: $verde-padrao;
+  width: 50px;
+  height: 25px;
+}
+
+a {
+  color: inherit;
+}
+
+.lista {
+  color: $cinza-padao;
+}
+
+//Produtos//
+.nomeProduto {
+  font-weight: bolder;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: bolder;
+  color: $vermelho-padrao;
+}
+
+.precoAnterior {
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: line-through;
+  color: $cinza-padao;
+}
+
+.botao {
+  background-color: $verde-padrao;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 185px;
+}
+
+//paginação//
+.page-link {
+  color: $cinza-padao;
+  font-weight: bolder;
+}
+
+.page-link:hover {
+  color: $vermelho-padrao;
+  font-weight: bolder;
+}
+
+.botaoPag {
+  color: $verde-padrao;
+  font-weight: bolder;
+}
+
+//Rodapé//
+#rodape {
+  background-color: $vermelho-padrao;
+  color: #ffffff;
+}
+
+#copyright {
+  background-color: $vermelho-padrao;
+  color: #ffffff;
+}

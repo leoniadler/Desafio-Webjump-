@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#products {
+    width: 100% !important;
+    /*height: 495px !important;*/
+    overflow-y:  !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(auto-fit, 350px);
+}
+
+.product-card {
+    width: 200px;
+    height: 350px;
+}
+
+.card {
+    height: 200px !important;
+}
+
+#menu-font {
+    width: 100%;
+}
+
+#cabecalho {
+    height: 30px;
+    width: auto;
+    background-color: #000000;
+    justify-content: flex-end;
+}
+
+.cabecalhoBotao {
+    font-size: 13px;
+}
+
+#botaoBuscar {
+    background-color: #c3121a;
+    color: white;
+    font-weight: bolder;
+}
+
+#campoBusca {
+    border: solid #000 1px;
+}
+
+#menu {
+    background-color: #fff;
+    font-size: 13px;
+    -webkit-box-shadow: 0 8px 3px -0px black;
+    -moz-box-shadow: 0 0px 3px 0px black;
+    box-shadow: 0 0px 3px 0px black;
+    z-index: 999999;
+
+}
+
+.focopagina {
+    color: #000;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.focopagina-item + .focopagina-item: :before {
+    content: ">";
+}
+
+#tituloFiltro {
+    color: #c3121a;
+    font-weight: bolder;
+}
+
+#categorias,
+#tipos,
+#cores {
+    color: #80bdb8;
+    font-weight: bolder;
+}
+
+#vermelho {
+    background-color: #c3221a;
+    width: 50px;
+    height: 25px;
+}
+
+#laranja {
+    background-color: #f36324;
+    width: 50px;
+    height: 25px;
+}
+
+#verde {
+    background-color: darkseagreen;
+    width: 50px;
+    height: 25px;
+}
+
+a {
+    color: inherit;
+}
+
+.lista {
+    color: #808080;
+}
+
+.nomeProduto {
+    font-weight: bolder;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #c3121a;
+}
+
+.precoAnterior {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.botao {
+    background-color: #80bdb8;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 185px;
+
+}
+
+.page-link {
+    color: #808080;
+    font-size: bolder;
+}
+
+.page-link:hover {
+    color: #c3121a;
+    font-weight: bolder;
+}
+
+.botaoPag {
+    color: #80bdb8;
+    font-weight: bolder;
+
+}
+
+#rodape {
+    background-color: #c3121a;
+    color: #fff;
+}
+
+#copyright {
+    background-color: #c3121a;
+    color: #fff;
+}
+
+.filtroPag {
+    display: flex;
+    margin-left: 30px;
+    /* margin-right: 37%;*/
+}
+
+.contato-select {
+
+    display: flex;
+    vertical-align: top;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@media(max-width: 851px) {
+    #products {
+        height: auto;
+        overflow-y: inherit !important;
+    }
+}
+
+@media(max-width: 991px) {
+
+    #cabecalho {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #campoBusca {
+        width: 50%;
+        display: none;
+    }
+
+    #botaoBuscar {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        background-color: ;
+        font-size: 13px;
+        z-index: 999999;
+        padding: 20px;
+
+    }
+
+    #menu li {
+        display: flex;
+        color: #fff;
+        ;
+    }
+
+    #menuNovo {
+        display: flex;
+        color: white;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .foto-logo {
+        display: none;
+    }
+
+    #menu {
+        background-color: #c3121a;
+        font-family: #fff;
+    }
+}
